@@ -1,0 +1,64 @@
+.product {
+  display: flex;
+  gap: 30px;
+}
+.product-image {
+  display: flex;
+  gap: 10px;
+}
+.product-image img {
+  width: 300px;
+}
+.product .product-details .product-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  margin-bottom: 20px;
+}
+.product .product-details .product-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  margin-bottom: 20px;
+}
+.product .product-details .product-size .size-chart {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.product .product-details .product-size .size-chart span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 50px;
+  width: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.product .product-details .product-details-quantity {
+  margin-bottom: 20px;
+}
+.product .product-details .product-details-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.product .product-details .product-details-btns button {
+  padding: 15px;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.product .product-details .product-details-btns #cart {
+  border: 1px solid gray;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.product .product-details .product-details-btns #wishlist {
+  border: 1px solid hsl(180, 100%, 30%);
+  color: hsl(180, 100%, 30%);
+}

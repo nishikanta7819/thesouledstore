@@ -1,0 +1,47 @@
+.shop-for-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.shop-for .shop-for-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 50px;
+}
+.shop-for .shop-for-cards img {
+  height: 300px;
+}
+/* ------------------Responsive------------------ */
+@media (max-width: 600px) {
+  .shop-for-title {
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+  .shop-for-title,
+  .shop-by-brands-title {
+    font-size: 8px;
+  }
+  .shop-for .shop-for-cards img {
+    height: 80px;
+  }
+  .shop-for .shop-for-cards {
+    gap: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .shop-by-brands-cards {
+    gap: 15px;
+  }
+  .shop-by-brands-cards img {
+    height: 20px;
+  }
+}

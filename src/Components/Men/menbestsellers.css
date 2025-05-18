@@ -1,0 +1,23 @@
+.bestsellers-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.bestsellers-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.bestsellers-cards .bestsellers-img img {
+  height: 200px;
+  gap: 20px;
+}

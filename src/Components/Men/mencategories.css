@@ -1,0 +1,23 @@
+.categories-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: hsl(0, 0%, 20%);
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .categories-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .categories-cards img {
+    flex: 1 1 calc(33.333% - 10px); /* Ensures 3 images per row with gap accounted for */
+    max-width: calc(33.333% - 10px); /* Ensures proper width calculation */
+  }
+  
