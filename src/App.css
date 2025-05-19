@@ -18,7 +18,6 @@ body {
   }
 }
 
-.page{
-  margin-top: 70px; /* Adjust this to prevent content from hiding behind the fixed navbar */
+.page{ /* Adjust this to prevent content from hiding behind the fixed navbar */
   padding: 20px;
 }

@@ -20,4 +20,14 @@
     flex: 1 1 calc(33.333% - 10px); /* Ensures 3 images per row with gap accounted for */
     max-width: calc(33.333% - 10px); /* Ensures proper width calculation */
   }
-  
+  @media (max-width: 450px) {
+  .categories-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .categories-cards{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

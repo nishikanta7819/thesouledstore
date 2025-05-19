@@ -2,10 +2,16 @@
     margin-top: 50px;
     margin-bottom: 20px;
     height: 300px;
+    width: 100%; 
+}
+.footer-ad{
+    background-color: red;
+    text-transform: uppercase;
+    color: white;
     width: 100%;
-    background-color: hsl(0, 0%, 85%);
     display: flex;
     justify-content: center;
+    height: 20px;
 }
 #copyright{
     display: flex;
